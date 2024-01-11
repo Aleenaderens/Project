@@ -1,0 +1,122 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+{% block css %}
+<head>
+    <meta charset="utf-8" />
+    <title>{% block title %}{% endblock title %} | test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="Themesdesign" name="author" />
+    <!-- App favicon -->
+
+    {% block extra_css %}
+    {% endblock extra_css %}
+    <!-- preloader css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+    <link rel="stylesheet" href="{% static 'css/ethnic.css' %}">
+    {% endblock css %}
+</head>
+<body>
+     <div class="aboutsec1">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+          <a class="navbar-brand logohd" href="#"></a>
+            <button style="margin-left: 90%;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div style="justify-content: end;">
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{% url 'Homepage' %}">Home</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item " href="/western">Western wears</a></li>
+                      <li><a class="dropdown-item" href="/casual">Casual wears</a></li>
+                      <li><a class="dropdown-item " href="/ethnic">Ethnic wears</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  active" href="#blog" >Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="{% url 'about' %}">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="{% url 'contact' %}">Contact</a>
+                  </li>
+                </ul>
+            </div>
+
+
+            </div>
+          </div>
+        </nav>
+
+      </div>
+
+ {% block content %}
+     {% endblock %}
+          <section>
+        <div class="section8">
+          <div class="container">
+            <div class="row  ">
+              <div class="col-lg-4  col-md-6 col-sm-6  ">
+                <h6 class="sec8hd">FREESTYLE</h6>
+              <p class="sec8para1">Who We Are <br>
+                Join Our Team <br>Terms & Conditions <br>We Respect Your Privacy <br>Fees & Payments <br>Returns & Refunds Policy <br>Promotions Terms & Conditions</p>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-4  ">
+              <h6 class="sec8hd"> Help</h6>
+              <p class="sec8para2"> Track Your OrderFrequently <br> Asked QuestionsReturns <br>CancellationsPayments <br>Customer CareHow Do <br> I Redeem My Coupon</p>
+              </div>
+              <div class="col-lg-4  col-md-6 col-sm-4  ">
+                <h6 class="sec8hd"> Follow us</h6>
+                <p class="sec8para3">
+
+                  FacebookInstagram- <br> FreestylefeInstagram- <br>FREESTYLE LUXE <br>
+                  TwitterPinterest</p>
+                  <!-- <img class="icon1" src="{% static 'images/icons8-facebook-50.png'  %}" alt="">
+                  <img  class="icon2" src="{% static 'images/icons8-instagram-50.png'  %}" alt="">
+                  <img  class="icon3" src="{% static 'images/icons8-twitter-50 (1).png'  %}" alt=""> -->
+              </div>
+              <!-- <hr class="sec8divider"> -->
+              <h6 class="footerend">Copyright ©2023 All rights reserved | This template is made with  by Colorlib</h6>
+            </div>
+
+          </div>
+
+        </div>
+
+    </section>
+
+
+{% block javascript %}
+    <!-- JAVASCRIPT -->
+    <script src="{% static 'assets/libs/jquery/dist/jquery.min.js'%}"></script>
+    <script src="{% static 'assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js'%}"></script>
+    <script src="{% static 'assets/libs/metismenu/dist/metisMenu.min.js'%}"></script>
+    <script src="{% static 'assets/libs/simplebar/dist/simplebar.min.js'%}"></script>
+    <script src="{% static 'assets/libs/node-waves/dist/waves.min.js'%}"></script>
+    <script src="{% static 'assets/libs/feather-icons/dist/feather.min.js'%}"></script>
+    <script src="{% static 'assets/libs/apexcharts/dist/apexcharts.min.js'%}"></script>
+    <script src="{% static 'assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js'%}"></script>
+    <script src="{% static 'assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js'%}"></script>
+    <script src="{% static 'assets/js/pages/dashboard.init.js'%}"></script>
+    <script src="{% static 'assets/libs/pace-js/pace.min.js'%}"></script>
+    {% block extra_js %}
+    {% endblock extra_js %}
+    <script src="{% static 'assets/js/app.js'%}"></script>
+    {% endblock javascript %}
+</body>
+
+</html>
+

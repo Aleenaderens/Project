@@ -1,0 +1,19 @@
+
+<!-- {% load static %}
+<link rel="stylesheet" href="{% static 'css/t.css' %}"> -->
+<form method="POST">
+    {% csrf_token %}
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" value="s" name="size" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Small
+                    </label>
+                  </div>
+                   <div class="form-check">
+                    <input class="form-check-input" type="radio" value="m" name="size" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Medium
+                    </label>
+                      <button>save</button>
+                    </form>
+                    

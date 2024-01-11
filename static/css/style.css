@@ -1,0 +1,452 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif&family=Playfair+Display&display=swap');
+.nav-link
+{
+  color: rgb(245, 245, 245);
+}
+#mainbg
+{
+
+    background-image:  url('../images/blackandwhite.jpg');
+    background-size: cover;
+    height: 100vh;
+    /* overflow:hidden; */
+ 
+}
+
+#sec1
+{
+   text-align: center;
+   overflow: hidden;
+}
+#sec1butt
+{
+    margin-left: 9%;
+    margin-top: 2%;
+    overflow: hidden;
+  
+}
+.mainhd
+{
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Playfair Display', serif;
+     font-family: 'PT Serif', serif;
+     text-align: center;
+     font-size: 50px;
+     margin-top: 19%;
+     
+}
+.mainlogo
+{
+   width: 100px;
+   height: 100px;
+   background-color: transparent;
+}
+
+.navtab
+{
+    justify-content: end;
+}
+.divider1
+{
+    color: rgb(156, 152, 152);
+    width: 30%;
+   margin-left: 35%;
+   overflow: hidden;
+
+}
+.loginhd{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-top:2%;
+   color: white;
+}
+.para1{
+    text-align: center;
+}
+.btn-danger
+{
+    margin-left: 39%;
+}
+
+.mainhding
+{
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Playfair Display', serif;
+     font-family: 'PT Serif', serif;
+     text-align: center;
+     overflow: hidden;
+}
+.para1
+{
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Playfair Display', serif;
+     font-family: 'PT Serif', serif;
+}
+.sechd2
+{
+     font-size: 80px;
+     text-align: center;
+     color: rgba(128, 128, 128, 0.438);
+     /* font-weight: bolder; */
+}
+
+.trend1
+{
+   height: 500px;
+   width: 100%;
+}
+.trend2
+{
+   height: 500px;
+   width: 100%;
+}
+.trend3
+{
+   height: 500px;
+   width: 100%;
+}
+.about
+{
+    background-color: rgba(197, 193, 193, 0.575);
+    margin-top: 5%;
+}
+.sec3img
+{
+    background-color: rgba(148, 145, 145, 0.35);
+     height: 100vh; 
+    padding: 8%;
+    margin-left: 50px;
+  
+}
+.sec3hd
+{
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Playfair Display', serif;
+     font-family: 'PT Serif', serif; 
+     text-align: center; 
+     margin-top: 12%;
+    
+}
+.aboutpara
+{
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Playfair Display', serif;
+     font-family: 'PT Serif', serif;
+     margin-top: 7%;
+   
+}
+.prod
+{
+    font-size: 100px;
+     text-align: center;
+     color: rgba(128, 128, 128, 0.438);
+    font-weight: bolder;
+    margin-top: 3%;
+}
+#cardsec2
+{
+    margin-top: 5%;
+}
+#cardsec1
+{
+    margin-top: 5%;
+}
+.divider2
+{
+    color: rgb(156, 152, 152);
+    width: 30%;
+   margin-left: 35%; 
+}
+#card1
+{
+    text-align: center;
+}
+
+.cards
+{
+    width: 100%;
+}
+#probutt
+{
+    margin-left: 80px;
+}
+#section4
+{
+    background-color: lightgoldenrodyellow;
+}
+#section5
+{
+   margin-top: 5%;
+   background-color: rgba(128, 128, 128, 0.088);
+}
+#sub1
+{
+     padding: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.398);
+    
+}
+#sub2
+{
+    
+    border: 1px solid rgba(128, 128, 128, 0.398);
+    border-left: none;
+    padding: 25px;
+}
+#sub3
+{
+     border: 1px solid rgba(128, 128, 128, 0.398);
+    border-left: none;
+    padding: 25px;
+}
+span{
+    padding-left: 10px;
+    font-weight: 600;
+}
+.subcontent
+{
+    padding-left: 55px;
+   
+}
+/* .card
+{
+   height: 400px;
+   margin-top: 50px;
+}
+.blogcard
+{
+    height: 300px;
+} */
+.subimg
+{
+    margin-left: 50px;
+}
+/* .sec6hd
+{
+    
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+} */
+.section6
+{
+    /* background-color: antiquewhite; */
+    /* background-image: url(../images/19853.jpg); */
+    width: 100%;
+    margin-top: 20px;
+}
+/* .sec6
+{
+    background-image: url('../images/sec6bg.jpg');
+    background-size: cover;
+
+} */
+.section6form
+{
+    border: 1px solid rgb(236, 231, 231);
+    border-radius: 5%;
+    /* padding: 3%; */
+    width:  350px;
+    height: 400px   ;
+    margin-top: 15%;
+   /* margin-left: 15%; */
+    background-color:  #ab8c77bb;
+}
+/* #formsecbg
+{
+   background-color: #ab8c77bb;
+   margin-top: 7%;
+   background-attachment: fixed;
+} */
+.formhd
+{
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Playfair Display', serif;
+     font-family: 'PT Serif', serif;
+     margin-left: 14%; 
+     margin-top: 7%;
+     color:  rgba(4, 4, 4, 0.663);
+}
+#formrow
+{
+   width: 550px;
+   height: 530px;
+   margin-left: 30%;
+   
+} 
+#sec6bg
+{
+    margin-top: 4%;
+}
+
+#sec6but
+{
+    margin-left: 38%;
+}
+.sec7img
+{
+    height: 100vh;
+}
+.divider3
+{
+    color: rgb(156, 152, 152);
+    width: 30%;
+   margin-left: 35%; 
+}
+.section7
+{
+    margin-top: 6%;
+}
+.blogimg
+{
+  height: 100vh;
+} 
+.card
+{
+    margin-top: 10%;
+    height: 350px;
+}
+#formrow
+{
+    border-radius: 1px solid black;
+    margin-top: 5%;
+}
+.formimg
+{
+    height: 100vh;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.section8
+{
+    /* background-color: rgba(235, 189, 189, 0.793); */
+    margin-top: 5%;
+}
+
+.formtab input{
+    border: 2px solid rgb(238, 238, 238);
+    height: 40px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.formtab textarea{
+    border: 2px solid rgb(238, 238, 238);
+    height: 50px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section8{
+    margin-top: 5%;
+    background-color: #845c48;
+    background-attachment: fixed;
+}
+.sec8hd
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 248, 248);
+    text-align: center;
+    margin-top: 10%;
+}
+
+.sec8para1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    margin-left: 37%;
+    margin-top: 5%;
+}
+.sec8para2
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    margin-left: 37%;
+    margin-top: 5%;
+}
+.sec8para3
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    margin-left: 40%;
+    margin-top: 5%;
+   
+}
+.sec8divider
+{
+    color: white;
+     height: 5%;
+    width: 50%;
+    margin-left: 350px;
+    margin-top: 2%;
+}
+.footerend
+{
+    color: white;
+    /* margin-left: 380px; */
+    margin-top: 2%;
+   text-align: center;
+
+}
+.fa
+{
+    color: black;
+}
+.icon1
+{
+    height: 25px;
+    width: 25px;
+    margin-left: 185px;
+}
+.icon2
+{
+    height: 25px;
+    width: 25px;
+}
+.icon3
+{
+    height: 25px;
+    width: 25px;
+}
+@media screen and (max-width: 600px) { 
+    .sec3img { 
+      margin-right: 20px;
+    } 
+    .trend1{
+        margin-left: 20%;
+        margin-top: 5%;
+        width: 300px;
+    }
+    .trend2{
+        margin-left: 20%;
+        margin-top: 5%;
+        width: 300px;
+    }
+    .trend3{
+        margin-left: 20%;
+        margin-top: 5%;
+        width: 300px;
+    }
+    #cardsec2
+    {
+        margin-left: 70px;
+    }
+    .mainhd{
+        margin-left: 50px;
+    }
+    .divider1{
+        margin-left: 175px;
+    }
+    .mainhding{
+        margin-left: 65px;
+    }
+    #sec1butt
+    {
+        margin-left: 5px;
+    }
+    .blogcard
+    {
+        margin-left: 100px;
+    }
+    
+  } 
